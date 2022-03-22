@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/shortcutDisabledMessage"
+        android:shortcutId="compose"
+        android:shortcutLongLabel="@string/shortcutLongLabel"
+        android:shortcutShortLabel="@string/shortcutShortLabel">
+        <intent
+            android:action="android.intent.action.staticShortcutAction"
+            android:targetClass="com.example.shortcut.StaticShortCutActivity"
+            android:targetPackage="com.example.shortcut" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+<!--    <shortcut-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:shortcutDisabledMessage="@string/shortcutDisabledMessage1"-->
+<!--        android:shortcutId="compose1"-->
+<!--        android:shortcutLongLabel="@string/shortcutLongLabel1"-->
+<!--        android:shortcutShortLabel="@string/shortcutShortLabel1">-->
+<!--        <intent-->
+<!--            android:action="android.intent.action.turnAllDevices"-->
+<!--            android:targetClass="com.example.shortcut.StaticShortCutActivity"-->
+<!--            android:targetPackage="com.example.shortcut" />-->
+<!--        &lt;!&ndash; If your shortcut is associated with multiple intents, include them-->
+<!--             here. The last intent in the list determines what the user sees when-->
+<!--             they launch this shortcut. &ndash;&gt;-->
+<!--        <categories android:name="android.shortcut.conversation" />-->
+<!--        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />-->
+<!--    </shortcut>-->
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

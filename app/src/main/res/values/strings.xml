@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShortCut</string>
+    <string name="shortcutDisabledMessage">shortcutDisabledMessage</string>
+    <string name="shortcutLongLabel">static shortcutLongLabel</string>
+    <string name="shortcutShortLabel">static shortcutShortLabel</string>
+    <string name="shortcutDisabledMessage1">shortcutDisabledMessage1</string>
+    <string name="shortcutLongLabel1">static shortcutLongLabel1</string>
+    <string name="shortcutShortLabel1">static shortcutShortLabel1</string>
+</resources>
